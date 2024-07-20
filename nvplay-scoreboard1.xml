@@ -1,0 +1,712 @@
+<nvplay>
+  <!-- Template to output scoreboard fields based on agreed ITF format requested by Daktronics -->
+  <scoreboard>
+    <field key="Current Batting Team full name" max="20" value="North Enfield CC" />
+    <field key="Current Batting Team abbreviated name (three characters)" max="3" value="NECC 1&apos;s" />
+    <field key="Current Bowling Team full name" max="20" value="Cheshunt Rosedale CC 1st XI" />
+    <field key="Current Bowling Team abbreviated name (three characters)" max="3" value="1st XI" />
+    <field key="Batsman 1 name" max="20" value="Ali" />
+    <field key="Batsman 2 name" max="20" value="Coughlan" />
+    <field key="Batsman 3 name" max="20" value="Gandy" />
+    <field key="Batsman 4 name" max="20" value="Tillikaratna" />
+    <field key="Batsman 5 name" max="20" value="Gillman" />
+    <field key="Batsman 6 name" max="20" value="Honor" />
+    <field key="Batsman 7 name" max="20" value="Jessop" />
+    <field key="Batsman 8 name" max="20" value="J Jones" />
+    <field key="Batsman 9 name" max="20" value="K Jones" />
+    <field key="Batsman 10 name" max="20" value="Pearson" />
+    <field key="Batsman 11 name" max="20" value="MacMurdie" />
+    <field key="How out batsman 1" max="20" value="st M RICHARDSON b SINGRI" />
+    <field key="How out batsman 2" max="20" value="c BEECH b SINGRI" />
+    <field key="How out batsman 3" max="20" value="b SINGRI" />
+    <field key="How out batsman 4" max="20" value="not out" />
+    <field key="How out batsman 5" max="20" value="not out" />
+    <field key="How out batsman 6" max="20" value="   " />
+    <field key="How out batsman 7" max="20" value="   " />
+    <field key="How out batsman 8" max="20" value="   " />
+    <field key="How out batsman 9" max="20" value="   " />
+    <field key="How out batsman 10" max="20" value="   " />
+    <field key="How out batsman 11" max="20" value="   " />
+    <field key="Batsman 1 runs" max="3" value="16" />
+    <field key="Batsman 2 runs" max="3" value="7" />
+    <field key="Batsman 3 runs" max="3" value="26" />
+    <field key="Batsman 4 runs" max="3" value="29" />
+    <field key="Batsman 5 runs" max="3" value="30" />
+    <field key="Batsman 6 runs" max="3" value="" />
+    <field key="Batsman 7 runs" max="3" value="" />
+    <field key="Batsman 8 runs" max="3" value="" />
+    <field key="Batsman 9 runs" max="3" value="" />
+    <field key="Batsman 10 runs" max="3" value="" />
+    <field key="Batsman 11 runs" max="3" value="" />
+    <field key="Batsman 1 balls" max="3" value="15" />
+    <field key="Batsman 2 balls" max="3" value="4" />
+    <field key="Batsman 3 balls" max="3" value="15" />
+    <field key="Batsman 4 balls" max="3" value="13" />
+    <field key="Batsman 5 balls" max="3" value="11" />
+    <field key="Batsman 6 balls" max="3" value="" />
+    <field key="Batsman 7 balls" max="3" value="" />
+    <field key="Batsman 8 balls" max="3" value="" />
+    <field key="Batsman 9 balls" max="3" value="" />
+    <field key="Batsman 10 balls" max="3" value="" />
+    <field key="Batsman 11 balls" max="3" value="" />
+    <field key="Batsman 1 fours" max="3" value="0" />
+    <field key="Batsman 2 fours" max="3" value="0" />
+    <field key="Batsman 3 fours" max="3" value="3" />
+    <field key="Batsman 4 fours" max="3" value="3" />
+    <field key="Batsman 5 fours" max="3" value="2" />
+    <field key="Batsman 6 fours" max="3" value="" />
+    <field key="Batsman 7 fours" max="3" value="" />
+    <field key="Batsman 8 fours" max="3" value="" />
+    <field key="Batsman 9 fours" max="3" value="" />
+    <field key="Batsman 10 fours" max="3" value="" />
+    <field key="Batsman 11 fours" max="3" value="" />
+    <field key="Batsman 1 sixes" max="3" value="0" />
+    <field key="Batsman 2 sixes" max="3" value="1" />
+    <field key="Batsman 3 sixes" max="3" value="1" />
+    <field key="Batsman 4 sixes" max="3" value="1" />
+    <field key="Batsman 5 sixes" max="3" value="2" />
+    <field key="Batsman 6 sixes" max="3" value="" />
+    <field key="Batsman 7 sixes" max="3" value="" />
+    <field key="Batsman 8 sixes" max="3" value="" />
+    <field key="Batsman 9 sixes" max="3" value="" />
+    <field key="Batsman 10 sixes" max="3" value="" />
+    <field key="Batsman 11 sixes" max="3" value="" />
+    <field key="Batsman 1 minutes" max="3" value="145" />
+    <field key="Batsman 2 minutes" max="3" value="3" />
+    <field key="Batsman 3 minutes" max="3" value="2051" />
+    <field key="Batsman 4 minutes" max="3" value="1975" />
+    <field key="Batsman 5 minutes" max="3" value="66" />
+    <field key="Batsman 6 minutes" max="3" value="" />
+    <field key="Batsman 7 minutes" max="3" value="" />
+    <field key="Batsman 8 minutes" max="3" value="" />
+    <field key="Batsman 9 minutes" max="3" value="" />
+    <field key="Batsman 10 minutes" max="3" value="" />
+    <field key="Batsman 11 minutes" max="3" value="" />
+    <field key="Batsman 1 facing" max="1" value="   " />
+    <field key="Batsman 2 facing" max="1" value="   " />
+    <field key="Batsman 3 facing" max="1" value="   " />
+    <field key="Batsman 4 facing" max="1" value="*" />
+    <field key="Batsman 5 facing" max="1" value="   " />
+    <field key="Batsman 6 facing" max="1" value="   " />
+    <field key="Batsman 7 facing" max="1" value="   " />
+    <field key="Batsman 8 facing" max="1" value="   " />
+    <field key="Batsman 9 facing" max="1" value="   " />
+    <field key="Batsman 10 facing" max="1" value="   " />
+    <field key="Batsman 11 facing" max="1" value="   " />
+    <!-- NOT IMPLEMENTED: Batter comments -->
+    <field key="Batsman 1 comments" max="0" value="" />
+    <field key="Batsman 2 comments" max="0" value="" />
+    <field key="Batsman 3 comments" max="0" value="" />
+    <field key="Batsman 4 comments" max="0" value="" />
+    <field key="Batsman 5 comments" max="0" value="" />
+    <field key="Batsman 6 comments" max="0" value="" />
+    <field key="Batsman 7 comments" max="0" value="" />
+    <field key="Batsman 8 comments" max="0" value="" />
+    <field key="Batsman 9 comments" max="0" value="" />
+    <field key="Batsman 10 comments" max="0" value="" />
+    <field key="Batsman 11 comments" max="0" value="" />
+    <!-- END NOT IMPLEMENTED -->
+    <field key="Bowler 1 name" max="20" value="Dinnes" />
+    <field key="Bowler 2 name" max="20" value="Singri" />
+    <field key="Bowler 3 name" max="20" value="   " />
+    <field key="Bowler 4 name" max="20" value="   " />
+    <field key="Bowler 5 name" max="20" value="   " />
+    <field key="Bowler 6 name" max="20" value="   " />
+    <field key="Bowler 7 name" max="20" value="   " />
+    <field key="Bowler 8 name" max="20" value="   " />
+    <field key="Bowler 9 name" max="20" value="   " />
+    <field key="Bowler 10 name" max="20" value="   " />
+    <field key="Bowler 11 name" max="20" value="   " />
+    <field key="Bowler 1 overs" max="5" value="5" />
+    <field key="Bowler 2 overs" max="5" value="4.3" />
+    <field key="Bowler 3 overs" max="5" value="   " />
+    <field key="Bowler 4 overs" max="5" value="   " />
+    <field key="Bowler 5 overs" max="5" value="   " />
+    <field key="Bowler 6 overs" max="5" value="   " />
+    <field key="Bowler 7 overs" max="5" value="   " />
+    <field key="Bowler 8 overs" max="5" value="   " />
+    <field key="Bowler 9 overs" max="5" value="   " />
+    <field key="Bowler 10 overs" max="5" value="   " />
+    <field key="Bowler 11 overs" max="5" value="   " />
+    <field key="Bowler 1 maidens" max="3" value="0" />
+    <field key="Bowler 2 maidens" max="3" value="0" />
+    <field key="Bowler 3 maidens" max="3" value="" />
+    <field key="Bowler 4 maidens" max="3" value="" />
+    <field key="Bowler 5 maidens" max="3" value="" />
+    <field key="Bowler 6 maidens" max="3" value="" />
+    <field key="Bowler 7 maidens" max="3" value="" />
+    <field key="Bowler 8 maidens" max="3" value="" />
+    <field key="Bowler 9 maidens" max="3" value="" />
+    <field key="Bowler 10 maidens" max="3" value="" />
+    <field key="Bowler 11 maidens" max="3" value="" />
+    <field key="Bowler 1 runs" max="3" value="65" />
+    <field key="Bowler 2 runs" max="3" value="47" />
+    <field key="Bowler 3 runs" max="3" value="" />
+    <field key="Bowler 4 runs" max="3" value="" />
+    <field key="Bowler 5 runs" max="3" value="" />
+    <field key="Bowler 6 runs" max="3" value="" />
+    <field key="Bowler 7 runs" max="3" value="" />
+    <field key="Bowler 8 runs" max="3" value="" />
+    <field key="Bowler 9 runs" max="3" value="" />
+    <field key="Bowler 10 runs" max="3" value="" />
+    <field key="Bowler 11 runs" max="3" value="" />
+    <field key="Bowler 1 wides" max="3" value="2" />
+    <field key="Bowler 2 wides" max="3" value="1" />
+    <field key="Bowler 3 wides" max="3" value="" />
+    <field key="Bowler 4 wides" max="3" value="" />
+    <field key="Bowler 5 wides" max="3" value="" />
+    <field key="Bowler 6 wides" max="3" value="" />
+    <field key="Bowler 7 wides" max="3" value="" />
+    <field key="Bowler 8 wides" max="3" value="" />
+    <field key="Bowler 9 wides" max="3" value="" />
+    <field key="Bowler 10 wides" max="3" value="" />
+    <field key="Bowler 11 wides" max="3" value="" />
+    <field key="Bowler 1 no balls" max="3" value="0" />
+    <field key="Bowler 2 no balls" max="3" value="1" />
+    <field key="Bowler 3 no balls" max="3" value="" />
+    <field key="Bowler 4 no balls" max="3" value="" />
+    <field key="Bowler 5 no balls" max="3" value="" />
+    <field key="Bowler 6 no balls" max="3" value="" />
+    <field key="Bowler 7 no balls" max="3" value="" />
+    <field key="Bowler 8 no balls" max="3" value="" />
+    <field key="Bowler 9 no balls" max="3" value="" />
+    <field key="Bowler 10 no balls" max="3" value="" />
+    <field key="Bowler 11 no balls" max="3" value="" />
+    <field key="Bowler 1 wickets" max="3" value="0" />
+    <field key="Bowler 2 wickets" max="3" value="3" />
+    <field key="Bowler 3 wickets" max="3" value="" />
+    <field key="Bowler 4 wickets" max="3" value="" />
+    <field key="Bowler 5 wickets" max="3" value="" />
+    <field key="Bowler 6 wickets" max="3" value="" />
+    <field key="Bowler 7 wickets" max="3" value="" />
+    <field key="Bowler 8 wickets" max="3" value="" />
+    <field key="Bowler 9 wickets" max="3" value="" />
+    <field key="Bowler 10 wickets" max="3" value="" />
+    <field key="Bowler 11 wickets" max="3" value="" />
+    <field key="Fielder 1 name" max="20" value="A Richardson" />
+    <field key="Fielder 2 name" max="20" value="McGreevey" />
+    <field key="Fielder 3 name" max="20" value="Thomas" />
+    <field key="Fielder 4 name" max="20" value="Philo" />
+    <field key="Fielder 5 name" max="20" value="Holly" />
+    <field key="Fielder 6 name" max="20" value="M Richardson" />
+    <field key="Fielder 7 name" max="20" value="Beech" />
+    <field key="Fielder 8 name" max="20" value="Sritharan" />
+    <field key="Fielder 9 name" max="20" value="Maradia" />
+    <field key="Fielder 10 name" max="20" value="Singri" />
+    <field key="Fielder 11 name" max="20" value="Dinnes" />
+    <!-- NOT IMPLEMENTED: Fielder comments -->
+    <field key="Fielder 1 comments" max="0" value="" />
+    <field key="Fielder 2 comments" max="0" value="" />
+    <field key="Fielder 3 comments" max="0" value="" />
+    <field key="Fielder 4 comments" max="0" value="" />
+    <field key="Fielder 5 comments" max="0" value="" />
+    <field key="Fielder 6 comments" max="0" value="" />
+    <field key="Fielder 7 comments" max="0" value="" />
+    <field key="Fielder 8 comments" max="0" value="" />
+    <field key="Fielder 9 comments" max="0" value="" />
+    <field key="Fielder 10 comments" max="0" value="" />
+    <field key="Fielder 11 comments" max="0" value="" />
+    <!-- END NOT IMPLEMENTED -->    
+    <field key="Byes" max="3" value="2" />
+    <field key="Leg byes" max="3" value="0" />
+    <field key="Wides" max="3" value="3" />
+    <field key="No balls" max="3" value="1" />
+    <field key="Total extras" max="3" value="6" />
+    <field key="Total runs" max="3" value="114" />
+    <field key="Total wickets" max="3" value="3" />
+    <field key="Total overs bowled" max="3" value="9" />
+    <field key="Total balls played" max="3" value="57" />
+    <field key="Runs at wicket 1" max="3" value="10" />
+    <field key="Runs at wicket 2" max="3" value="43" />
+    <field key="Runs at wicket 3" max="3" value="76" />
+    <field key="Runs at wicket 4" max="3" value="" />
+    <field key="Runs at wicket 5" max="3" value="" />
+    <field key="Runs at wicket 6" max="3" value="" />
+    <field key="Runs at wicket 7" max="3" value="" />
+    <field key="Runs at wicket 8" max="3" value="" />
+    <field key="Runs at wicket 9" max="3" value="" />
+    <field key="Last wicket at" max="3" value="76" />
+    <field key="Current Batting Team first innings total runs" max="3" value="114" />
+    <field key="Current Batting Team second innings total runs" max="3" value="" />
+    <field key="Current Bowling Team first innings total runs" max="3" value="" />
+    <field key="Current Bowling Team second innings total runs" max="3" value="" />
+    <field key="Runs required to win" max="3" value="" />
+    <field key="Overs remaining" max="3" value="41" />
+    <field key="Total balls remaining" max="3" value="243" />
+    <field key="Partnership 1 names" max="20" value="Ali, Coughlan" />
+    <field key="Partnership 2 names" max="20" value="Ali, Gandy" />
+    <field key="Partnership 3 names" max="20" value="Gandy, Tillikaratna" />
+    <field key="Partnership 4 names" max="20" value="Tillikaratna, Gillman" />
+    <field key="Partnership 5 names" max="20" value="   " />
+    <field key="Partnership 6 names" max="20" value="   " />
+    <field key="Partnership 7 names" max="20" value="   " />
+    <field key="Partnership 8 names" max="20" value="   " />
+    <field key="Partnership 9 names" max="20" value="   " />
+    <field key="Partnership 10 names" max="20" value="   " />
+    <field key="Partnership 1 runs" max="3" value="10" />
+    <field key="Partnership 2 runs" max="3" value="33" />
+    <field key="Partnership 3 runs" max="3" value="33" />
+    <field key="Partnership 4 runs" max="3" value="38" />
+    <field key="Partnership 5 runs" max="3" value="" />
+    <field key="Partnership 6 runs" max="3" value="" />
+    <field key="Partnership 7 runs" max="3" value="" />
+    <field key="Partnership 8 runs" max="3" value="" />
+    <field key="Partnership 9 runs" max="3" value="" />
+    <field key="Partnership 10 runs" max="3" value="" />
+    <field key="Partnership 1 minutes" max="3" value="3" />
+    <field key="Partnership 2 minutes" max="3" value="141" />
+    <field key="Partnership 3 minutes" max="3" value="1909" />
+    <field key="Partnership 4 minutes" max="3" value="66" />
+    <field key="Partnership 5 minutes" max="3" value="" />
+    <field key="Partnership 6 minutes" max="3" value="" />
+    <field key="Partnership 7 minutes" max="3" value="" />
+    <field key="Partnership 8 minutes" max="3" value="" />
+    <field key="Partnership 9 minutes" max="3" value="" />
+    <field key="Partnership 10 minutes" max="3" value="" />
+    <field key="Partnership 1 balls" max="3" value="8" />
+    <field key="Partnership 2 balls" max="3" value="23" />
+    <field key="Partnership 3 balls" max="3" value="12" />
+    <field key="Partnership 4 balls" max="3" value="15" />
+    <field key="Partnership 5 balls" max="3" value="" />
+    <field key="Partnership 6 balls" max="3" value="" />
+    <field key="Partnership 7 balls" max="3" value="" />
+    <field key="Partnership 8 balls" max="3" value="" />
+    <field key="Partnership 9 balls" max="3" value="" />
+    <field key="Partnership 10 balls" max="3" value="" />
+    <field key="1st Innings Batsman 1 Name" max="20" value="Ali" />
+    <field key="1st Innings Batsman 2 Name" max="20" value="Coughlan" />
+    <field key="1st Innings Batsman 3 Name" max="20" value="Gandy" />
+    <field key="1st Innings Batsman 4 Name" max="20" value="Tillikaratna" />
+    <field key="1st Innings Batsman 5 Name" max="20" value="Gillman" />
+    <field key="1st Innings Batsman 6 Name" max="20" value="Honor" />
+    <field key="1st Innings Batsman 7 Name" max="20" value="Jessop" />
+    <field key="1st Innings Batsman 8 Name" max="20" value="J Jones" />
+    <field key="1st Innings Batsman 9 Name" max="20" value="K Jones" />
+    <field key="1st Innings Batsman 10 Name" max="20" value="Pearson" />
+    <field key="1st Innings Batsman 11 Name" max="20" value="MacMurdie" />
+    <field key="1st Innings Extras Formatted" max="25" value="1NB 3W 0LB 2B 0PEN" />
+    <field key="1st Innings Total Formatted" max="15" value="114-3 (9.3)" />
+    <field key="2nd Innings Batsman 1 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 2 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 3 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 4 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 5 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 6 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 7 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 8 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 9 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 10 Name" max="20" value="   " />
+    <field key="2nd Innings Batsman 11 Name" max="20" value="   " />
+    <field key="2nd Innings Extras Formatted" max="25" value="   " />
+    <field key="2nd Innings Total Formatted" max="15" value="   " />
+    <field key="3rd Innings Batsman 1 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 2 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 3 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 4 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 5 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 6 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 7 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 8 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 9 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 10 Name" max="20" value="   " />
+    <field key="3rd Innings Batsman 11 Name" max="20" value="   " />
+    <field key="3rd Innings Extras Formatted" max="25" value="   " />
+    <field key="3rd Innings Total Formatted" max="15" value="   " />
+    <field key="4th Innings Batsman 1 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 2 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 3 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 4 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 5 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 6 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 7 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 8 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 9 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 10 Name" max="20" value="   " />
+    <field key="4th Innings Batsman 11 Name" max="20" value="   " />
+    <field key="4th Innings Extras Formatted" max="25" value="   " />
+    <field key="4th Innings Total Formatted" max="15" value="   " />
+    <field key="Previous team's average run rate" max="5" value="   " />
+    <field key="Previous team's average runs per ball" max="5" value="   " />
+    <field key="Current team's average run rate so far" max="5" value="12.0" />
+    <field key="Required run rate to win" max="5" value="   " />
+    <field key="Batsman 1 strike rate (runs per 100 balls faced)" max="5" value="106.7" />
+    <field key="Batsman 2 strike rate" max="5" value="175.0" />
+    <field key="Batsman 3 strike rate" max="5" value="173.3" />
+    <field key="Batsman 4 strike rate" max="5" value="223.1" />
+    <field key="Batsman 5 strike rate" max="5" value="272.7" />
+    <field key="Batsman 6 strike rate" max="5" value="   " />
+    <field key="Batsman 7 strike rate" max="5" value="   " />
+    <field key="Batsman 8 strike rate" max="5" value="   " />
+    <field key="Batsman 9 strike rate" max="5" value="   " />
+    <field key="Batsman 10 strike rate" max="5" value="   " />
+    <field key="Batsman 11 strike rate" max="5" value="   " />
+    <field key="Bowler 1 run rate (average runs per over)" max="5" value="13.0" />
+    <field key="Bowler 2 run rate" max="5" value="10.4" />
+    <field key="Bowler 3 run rate" max="5" value="   " />
+    <field key="Bowler 4 run rate" max="5" value="   " />
+    <field key="Bowler 5 run rate" max="5" value="   " />
+    <field key="Bowler 6 run rate" max="5" value="   " />
+    <field key="Bowler 7 run rate" max="5" value="   " />
+    <field key="Bowler 8 run rate" max="5" value="   " />
+    <field key="Bowler 9 run rate" max="5" value="   " />
+    <field key="Bowler 10 run rate" max="5" value="   " />
+    <field key="Bowler 11 run rate" max="5" value="   " />
+    <field key="Current partnership names" max="20" value="Tillikaratna, Gillman" />
+    <field key="Current partnership runs" max="3" value="38" />
+    <field key="Current partnership minutes" max="3" value="66" />
+    <field key="Current parnership balls" max="3" value="15" />
+    <field key="North end umpire's name" max="20" value="   " />
+    <field key="South end umpire's name" max="20" value="   " />
+    <field key="3rd umpire's name" max="20" value="   " />
+    <field key="Team A 12th man name" max="20" value="   " />
+    <field key="Team B 12th man name" max="20" value="   " />
+    <field key="1st Innings Batsman 1 How Out and Runs" max="25" value="st M RICHARDSON b SINGRI  16" />
+    <field key="1st Innings Batsman 2 How Out and Runs" max="25" value="c BEECH b SINGRI   7" />
+    <field key="1st Innings Batsman 3 How Out and Runs" max="25" value="b SINGRI  26" />
+    <field key="1st Innings Batsman 4 How Out and Runs" max="25" value="not out  29" />
+    <field key="1st Innings Batsman 5 How Out and Runs" max="25" value="not out  30" />
+    <field key="1st Innings Batsman 6 How Out and Runs" max="25" value="   " />
+    <field key="1st Innings Batsman 7 How Out and Runs" max="25" value="   " />
+    <field key="1st Innings Batsman 8 How Out and Runs" max="25" value="   " />
+    <field key="1st Innings Batsman 9 How Out and Runs" max="25" value="   " />
+    <field key="1st Innings Batsman 10 How Out and Runs" max="25" value="   " />
+    <field key="1st Innings Batsman 11 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 1 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 2 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 3 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 4 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 5 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 6 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 7 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 8 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 9 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 10 How Out and Runs" max="25" value="   " />
+    <field key="2nd Innings Batsman 11 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 1 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 2 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 3 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 4 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 5 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 6 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 7 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 8 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 9 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 10 How Out and Runs" max="25" value="   " />
+    <field key="3rd Innings Batsman 11 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 1 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 2 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 3 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 4 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 5 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 6 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 7 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 8 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 9 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 10 How Out and Runs" max="25" value="   " />
+    <field key="4th Innings Batsman 11 How Out and Runs" max="25" value="   " />
+    <field key="North end current bowler name" max="20" value="Dinnes" />
+    <field key="North end current bowler overs" max="5" value="5" />
+    <field key="North end current bowler maidens" max="3" value="0" />
+    <field key="North end current bowler runs" max="3" value="65" />
+    <field key="North end current bowler wickets" max="3" value="0" />
+    <field key="North end current bowler wides" max="3" value="2" />
+    <field key="North end current bowler no balls" max="3" value="0" />
+    <field key="South end current bowler name" max="20" value="Singri" />
+    <field key="South end current bowler overs" max="5" value="4.3" />
+    <field key="South end current bowler maidens" max="3" value="0" />
+    <field key="South end current bowler runs" max="3" value="47" />
+    <field key="South end current bowler wickets" max="3" value="3" />
+    <field key="South end current bowler wides" max="3" value="1" />
+    <field key="South end current bowler no balls" max="3" value="1" />
+    <field key="Overs with current ball" max="3" value="9" />
+    <field key="Balls with current ball" max="3" value="57" />
+    <field key="Overs remaining with current ball" max="3" value="" />
+    <field key="Balls remaining with current ball" max="3" value="" />
+    <field key="Elapsed time" max="3" value="2120" />
+    <field key="1st Innings Batting Team Name" max="20" value="North Enfield CC" />
+    <field key="2nd Innings Batting Team Name" max="20" value="   " />
+    <field key="3rd Innings Batting Team Name" max="20" value="   " />
+    <field key="4th Innings Batting Team Name" max="20" value="   " />
+    <field key="Current north end batsman name" max="20" value="Tillikaratna" />
+    <field key="Current north end batsman minutes" max="3" value="1975" />
+    <field key="Current north end batsman balls" max="3" value="13" />
+    <field key="Current north end batsman fours" max="3" value="3" />
+    <field key="Current north end batsman sixes" max="3" value="1" />
+    <field key="Current north end batsman runs" max="3" value="29" />
+    <field key="Current south end batsman name" max="20" value="Gillman" />
+    <field key="Current south end batsman minutes" max="3" value="66" />
+    <field key="Current south end batsman balls" max="3" value="11" />
+    <field key="Current south end batsman fours" max="3" value="2" />
+    <field key="Current south end batsman sixes" max="3" value="2" />
+    <field key="Current south end batsman runs" max="3" value="30" />
+    <field key="Current north end batsman facing" max="1" value="*" />
+    <field key="Current south end batsman facing" max="1" value="   " />
+    <field key="Current partnership extras" max="3" value="5" />
+    <field key="Overs completed + balls completed" max="5" value="9.3" />
+    <field key="Current partner 1 Name" max="20" value="Tillikaratna" />
+    <field key="Current partner 1 Minutes" max="3" value="1975" />
+    <field key="Current partner 1 Balls" max="3" value="13" />
+    <field key="Current partner 1 Fours" max="3" value="3" />
+    <field key="Current partner 1 Sixes" max="3" value="1" />
+    <field key="Current partner 1 Runs" max="3" value="3" />
+    <field key="Current partner 2 Name" max="20" value="Gillman" />
+    <field key="Current partner 2 Minutes" max="3" value="66" />
+    <field key="Current partner 2 Balls" max="3" value="11" />
+    <field key="Current partner 2 Fours" max="3" value="2" />
+    <field key="Current partner 2 Sixes" max="3" value="2" />
+    <field key="Current partner 2 Runs" max="3" value="30" />
+    <field key="Current partner 1 facing (linked to 722)" max="1" value="*" />
+    <field key="Current partner 2 facing (linked to 723)" max="1" value="   " />
+    <field key="Current partner 1 actual runs" max="3" value="29" />
+    <field key="Current partner 2 actual runs" max="3" value="30" />
+    <field key="Over rate per hour" max="3" value="" />
+    <field key="Batsman 1 name" max="20" value="Tillikaratna" />
+    <field key="Batsman 1 minutes" max="3" value="1975" />
+    <field key="Batsman 1 balls" max="3" value="13" />
+    <field key="Batsman 1 fours" max="3" value="3" />
+    <field key="Batsman 1 sixes" max="3" value="1" />
+    <field key="Batsman 1 runs" max="3" value="29" />
+    <field key="Batsman 1 facing" max="1" value="*" />
+    <field key="Batsman 2 name" max="20" value="Gillman" />
+    <field key="Batsman 2 minutes" max="3" value="66" />
+    <field key="Batsman 2 balls" max="3" value="11" />
+    <field key="Batsman 2 fours" max="3" value="2" />
+    <field key="Batsman 2 sixes" max="3" value="2" />
+    <field key="Batsman 2 runs" max="3" value="30" />
+    <field key="Batsman 2 facing" max="1" value="   " />
+    <field key="Batsman out at wicket 1" max="20" value="Coughlan" />
+    <field key="Batsman out at wicket 2" max="20" value="Ali" />
+    <field key="Batsman out at wicket 3" max="20" value="Gandy" />
+    <field key="Batsman out at wicket 4" max="20" value="   " />
+    <field key="Batsman out at wicket 5" max="20" value="   " />
+    <field key="Batsman out at wicket 6" max="20" value="   " />
+    <field key="Batsman out at wicket 7" max="20" value="   " />
+    <field key="Batsman out at wicket 8" max="20" value="   " />
+    <field key="Batsman out at wicket 9" max="20" value="   " />
+    <field key="Batsman out at wicket 10" max="20" value="   " />
+    <field key="Batsman out runs at wicket 1" max="3" value="7" />
+    <field key="Batsman out runs at wicket 2" max="3" value="16" />
+    <field key="Batsman out runs at wicket 3" max="3" value="26" />
+    <field key="Batsman out runs at wicket 4" max="3" value="" />
+    <field key="Batsman out runs at wicket 5" max="3" value="" />
+    <field key="Batsman out runs at wicket 6" max="3" value="" />
+    <field key="Batsman out runs at wicket 7" max="3" value="" />
+    <field key="Batsman out runs at wicket 8" max="3" value="" />
+    <field key="Batsman out runs at wicket 9" max="3" value="" />
+    <field key="Batsman out runs at wicket 10" max="3" value="" />
+    <field key="Batsman how out at wicket 1" max="20" value="c BEECH b SINGRI" />
+    <field key="Batsman how out at wicket 2" max="20" value="st M RICHARDSON b SINGRI" />
+    <field key="Batsman how out at wicket 3" max="20" value="b SINGRI" />
+    <field key="Batsman how out at wicket 4" max="20" value="   " />
+    <field key="Batsman how out at wicket 5" max="20" value="   " />
+    <field key="Batsman how out at wicket 6" max="20" value="   " />
+    <field key="Batsman how out at wicket 7" max="20" value="   " />
+    <field key="Batsman how out at wicket 8" max="20" value="   " />
+    <field key="Batsman how out at wicket 9" max="20" value="   " />
+    <field key="Batsman how out at wicket 10" max="20" value="   " />
+    <field key="Last batter out Name and Runs" max="20" value="Gandy 26" />
+    <field key="Last batter out How Out" max="20" value="b SINGRI" />
+    <field key="Batsman 1 Squad Number" max="3" value="1" />
+    <field key="Batsman 2 Squad Number" max="3" value="2" />
+    <field key="Batsman 3 Squad Number" max="3" value="3" />
+    <field key="Batsman 4 Squad Number" max="3" value="4" />
+    <field key="Batsman 5 Squad Number" max="3" value="5" />
+    <field key="Batsman 6 Squad Number" max="3" value="6" />
+    <field key="Batsman 7 Squad Number" max="3" value="7" />
+    <field key="Batsman 8 Squad Number" max="3" value="8" />
+    <field key="Batsman 9 Squad Number" max="3" value="9" />
+    <field key="Batsman 10 Squad Number" max="3" value="10" />
+    <field key="Batsman 11 Squad Number" max="3" value="11" />
+    <field key="Bowler 1 Squad Number" max="3" value="1" />
+    <field key="Bowler 2 Squad Number" max="3" value="2" />
+    <field key="Bowler 3 Squad Number" max="3" value="" />
+    <field key="Bowler 4 Squad Number" max="3" value="" />
+    <field key="Bowler 5 Squad Number" max="3" value="" />
+    <field key="Bowler 6 Squad Number" max="3" value="" />
+    <field key="Bowler 7 Squad Number" max="3" value="" />
+    <field key="Bowler 8 Squad Number" max="3" value="" />
+    <field key="Bowler 9 Squad Number" max="3" value="" />
+    <field key="Bowler 10 Squad Number" max="3" value="" />
+    <field key="Bowler 11 Squad Number" max="3" value="" />
+    <field key="Batting Team Penalty Runs" max="3" value="0" />
+    <field key="Bowling Team Penalty Runs" max="3" value="0" />
+    <field key="Over rate (manually entered)." max="3" value="" />
+    <field key="Batting Bonus points (manually entered)" max="3" value="" />
+    <field key="Bowling Bonus points (manually entered)" max="3" value="" />
+    <field key="Ducksworth Lewis calculations (manually entered)" max="3" value="" />
+    <field key="Powerplay" max="1" value="   " />
+    <field key="Bowler 1 bowling" max="1" value="   " />
+    <field key="Bowler 2 bowling" max="1" value="*" />
+    <field key="Bowler 3 bowling" max="1" value="   " />
+    <field key="Bowler 4 bowling" max="1" value="   " />
+    <field key="Bowler 5 bowling" max="1" value="   " />
+    <field key="Bowler 6 bowling" max="1" value="   " />
+    <field key="Bowler 7 bowling" max="1" value="   " />
+    <field key="Bowler 8 bowling" max="1" value="   " />
+    <field key="Bowler 9 bowling" max="1" value="   " />
+    <field key="Bowler 10 bowling" max="1" value="   " />
+    <field key="Bowler 11 bowling" max="1" value="   " />
+    <field key="Bowler 1 overs(without balls)" max="3" value="5" />
+    <field key="Bowler 2 overs(without balls)" max="3" value="4" />
+    <field key="Bowler 3 overs(without balls)" max="3" value="" />
+    <field key="Bowler 4 overs(without balls)" max="3" value="" />
+    <field key="Bowler 5 overs(without balls)" max="3" value="" />
+    <field key="Bowler 6 overs(without balls)" max="3" value="" />
+    <field key="Bowler 7 overs(without balls)" max="3" value="" />
+    <field key="Bowler 8 overs(without balls)" max="3" value="" />
+    <field key="Bowler 9 overs(without balls)" max="3" value="" />
+    <field key="Bowler 10 overs(without balls)" max="3" value="" />
+    <field key="Bowler 11 overs(without balls)" max="3" value="" />
+    <field key="Current North end bowler bowling" max="1" value="   " />
+    <field key="Current South end bowler bowling" max="1" value="*" />
+    <field key="Home team name" max="20" value="North Enfield CC" />
+    <field key="Away team name" max="20" value="Cheshunt Rosedale CC 1st XI" />
+    <field key="Home Batting Points" max="2" value="   " />
+    <field key="Home Bowling Points" max="2" value="   " />
+    <field key="Away Batting Points" max="2" value="   " />
+    <field key="Away Bowling Points" max="2" value="   " />
+    <field key="Home Total Points" max="2" value="   " />
+    <field key="Away Total Points" max="2" value="   " />
+    <field key="Innings Minutes" max="3" value="2120" />
+    <field key="Lead by or Trail by text" max="8" value="Lead by" />
+    <field key="Lead by or Trail by runs" max="3" value="114" />
+    <field key="Follow On text" max="9" value="   " />
+    <field key="Follow On runs" max="3" value="   " />
+    <field key="Remaining DRS Batting" max="3" value="" />
+    <field key="Remaining DRS Bowling" max="3" value="" />
+    <field key="Current bowler name" max="20" value="Singri" />
+    <field key="Current bowler overs" max="5" value="4.3" />
+    <field key="Current bowler overs without balls" max="3" value="4" />
+    <field key="Current bowler maidens" max="3" value="0" />
+    <field key="Current bowler runs" max="3" value="47" />
+    <field key="Current bowler wickets" max="3" value="3" />
+    <field key="Current bowler wides" max="3" value="1" />
+    <field key="Current bower num wides" max="3" value="1" />
+    <field key="Current bowler no balls" max="3" value="1" />
+    <field key="Current bowler num noballs" max="3" value="1" />
+    <field key="Current bowler econ" max="6" value="10.44" />
+    <field key="Overs left in Power Play" max="3" value="" />
+    <field key="Balls left in Power Play" max="3" value="" />
+    <field key="Overs and Balls left in Power Play" max="5" value="" />
+    <field key="Projected Score" max="3" value="600" />
+    <field key="Over Comparison (previous innings overs for current score)" max="3" value="" />
+    <field key="Current Fielder" max="20" value="   " />
+    <field key="Over rate value (no +/- sign)" max="3" value="" />
+    <field key="Over rate positive" max="1" value="   " />
+    <field key="Over rate negative" max="1" value="   " />
+    <field key="Over rate with level text" max="5" value="   " />
+    <field key="Cut off time" max="5" value="   " />
+    
+    <!-- New fields -->
+
+    <field key="CurrentOverBallByBall" max="20" value="1b 1nb+1b 4 3" />
+    <field key="InningsScoreShort" max="20" value="114 / 3" />
+    <field key="CurrentRunRate" max="5" value="12.0" />
+    <field key="CurrentRunRatePerBall" max="5" value="2.0" />
+    <field key="RequiredRunRate" max="5" value="   " />
+    <field key="RequiredRunRatePerBall" max="5" value="   " />
+    <field key="OverBallsRemaining" max="5" value="40.3" />
+    <field key="NewBallTakenOverBall" max="5" value="   " />
+    <field key="NewBallTakenBall" max="3" value="" />
+
+    <field key="Team1Innings1Runs" max="3" value="114" />
+    <field key="Team1Innings2Runs" max="3" value="" />
+    <field key="Team2Innings1Runs" max="3" value="" />
+    <field key="Team2Innings2Runs" max="3" value="" />
+
+    <field key="LastWicketFormatted" max="20" value="Gandy b SINGRI 26" />
+    <field key="LastWicketFielderName" max="20" value="   " />
+    <field key="LastWicketBatterRuns" max="3" value="26" />
+    <field key="LastWicketWicketType" max="20" value="Bowled" />
+
+    <field key="PowerPlayOver" max="3" value="" />
+    <field key="TossWonByTeam" max="20" value="North Enfield CC" />
+    <field key="TossDecision" max="5" value="Bat" />
+    
+    <field key="RefereeName" max="20" value="   " />
+    <field key="Umpire4Name" max="20" value="   " />
+    <field key="Scorer1Name" max="20" value="   " />
+    <field key="Scorer2Name" max="20" value="   " />
+    
+    <field key="CurrentPartnership_Batter1StrikeRate" max="20" value="223.1" />
+    <field key="CurrentPartnership_Batter2StrikeRate" max="20" value="272.7" />
+
+    <field key="NorthEnd_BowlerWidesCount" max="3" value="2" />
+    <field key="NorthEnd_BowlerNoBallsCount" max="3" value="0" />
+    <field key="SouthEnd_BowlerWidesCount" max="3" value="1" />
+    <field key="SouthEnd_BowlerNoBallsCount" max="3" value="1" />
+    <field key="NorthEnd_BowlerShirtNumber" max="3" value="1" />
+    <field key="SouthEnd_BowlerShirtNumber" max="3" value="2" />
+    <field key="NorthEnd_BowlerCompletedOvers" max="3" value="5" />
+    <field key="SouthEnd_BowlerCompletedOvers" max="3" value="4" />
+    <field key="NorthEnd_BowlerBalls" max="3" value="30" />
+    <field key="SouthEnd_BowlerBalls" max="3" value="27" />
+    <field key="NorthEnd_BowlerDotBalls" max="3" value="7" />
+    <field key="SouthEnd_BowlerDotBalls" max="3" value="8" />
+
+    <field key="Bowler1_WideCount" max="3" value="2" />
+    <field key="Bowler2_WideCount" max="3" value="1" />
+    <field key="Bowler3_WideCount" max="3" value="" />
+    <field key="Bowler4_WideCount" max="3" value="" />
+    <field key="Bowler5_WideCount" max="3" value="" />
+    <field key="Bowler6_WideCount" max="3" value="" />
+    <field key="Bowler7_WideCount" max="3" value="" />
+    <field key="Bowler8_WideCount" max="3" value="" />
+    <field key="Bowler9_WideCount" max="3" value="" />
+    <field key="Bowler10_WideCount" max="3" value="" />
+    <field key="Bowler1_NoBallCount" max="3" value="0" />
+    <field key="Bowler2_NoBallCount" max="3" value="1" />
+    <field key="Bowler3_NoBallCount" max="3" value="" />
+    <field key="Bowler4_NoBallCount" max="3" value="" />
+    <field key="Bowler5_NoBallCount" max="3" value="" />
+    <field key="Bowler6_NoBallCount" max="3" value="" />
+    <field key="Bowler7_NoBallCount" max="3" value="" />
+    <field key="Bowler8_NoBallCount" max="3" value="" />
+    <field key="Bowler9_NoBallCount" max="3" value="" />
+    <field key="Bowler10_NoBallCount" max="3" value="" />
+    
+    <field key="CurrentPartnership_Batter1ShirtNumber" max="3" value="4" />
+    <field key="CurrentPartnership_Batter2ShirtNumber" max="3" value="5" />
+
+    <field key="Batter1_HowOutShort" max="2" value="ST" />
+    <field key="Batter2_HowOutShort" max="2" value="C" />
+    <field key="Batter3_HowOutShort" max="2" value="B" />
+    <field key="Batter4_HowOutShort" max="2" value="   " />
+    <field key="Batter5_HowOutShort" max="2" value="   " />
+    <field key="Batter6_HowOutShort" max="2" value="   " />
+    <field key="Batter7_HowOutShort" max="2" value="   " />
+    <field key="Batter8_HowOutShort" max="2" value="   " />
+    <field key="Batter9_HowOutShort" max="2" value="   " />
+    <field key="Batter10_HowOutShort" max="2" value="   " />
+    <field key="Batter11_HowOutShort" max="2" value="   " />
+    <field key="Batter1_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter2_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter3_WicketFielderShirtNumber" max="3" value="2" />
+    <field key="Batter4_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter5_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter6_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter7_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter8_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter9_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter10_WicketFielderShirtNumber" max="3" value="" />
+    <field key="Batter11_WicketFielderShirtNumber" max="3" value="" />
+
+    <field key="DlsParOverBall1" max="3" value="" />
+    <field key="DlsParOverBall2" max="3" value="" />
+    <field key="DlsParOverBall3" max="3" value="" />
+    <field key="DlsParOverBall4" max="3" value="" />
+    <field key="DlsParOverBall5" max="3" value="" />
+    <field key="DlsParOverBall6" max="3" value="" />
+    <field key="DlsParOverAllBalls" max="30" value="   " />
+
+    <field key="CurrentOverBallNumber1" max="5" value="   " />
+    <field key="CurrentOverBallNumber2" max="5" value="   " />
+    <field key="CurrentOverBallNumber3" max="5" value="   " />
+    <field key="CurrentOverBallNumber4" max="5" value="   " />
+    <field key="CurrentOverBallNumber5" max="5" value="   " />
+    <field key="CurrentOverBallNumber6" max="5" value="   " />
+    
+    <field key="DlsParScoreCurrent" max="3" value="" />
+    
+  </scoreboard>
+</nvplay>
